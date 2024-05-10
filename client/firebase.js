@@ -4,14 +4,13 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAPHtGwAPrHaXLci-PS_QtEivHs-eoe8Dw",
-  authDomain: "mern-estate.firebaseapp.com",
-  projectId: "mern-estate",
-  storageBucket: "mern-estate.appspot.com",
-  messagingSenderId: "1078482850952",
-  appId: "1:1078482850952:web:28f19139ab77246602fb3d",
+  apiKey: import.meta.env.FIREBASE_API_KEY,
+  authDomain: "mern-estate-app-kanth.firebaseapp.com",
+  projectId: "mern-estate-app-kanth",
+  storageBucket: "mern-estate-app-kanth.appspot.com",
+  messagingSenderId: "331899090524",
+  appId: "1:331899090524:web:3aafe3a43ecb8ba54d1899",
 };
 
 // Initialize Firebase
